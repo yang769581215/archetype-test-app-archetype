@@ -1,0 +1,13 @@
+spring.datasource.url=jdbc:mysql://rdso30006c33s57oufvfo.mysql.rds.aliyuncs.com:3306/pltx-test?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+spring.datasource.username=*******
+spring.datasource.password=*******
+spring.datasource.driverClassName=com.mysql.jdbc.Driver
+
+spring.datasource.max-idle=10
+spring.datasource.max-active=15
+spring.datasource.max-lifetime=86430000
+spring.datasource.log-abandoned=true
+spring.datasource.remove-abandoned=true
+spring.datasource.remove-abandoned-timeout=60
+spring.datasource.initialize=false
+spring.datasource.sqlScriptEncoding=UTF-8
